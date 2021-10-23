@@ -83,8 +83,9 @@
     
  }
 
-// 学习总结：
+// 语法学习总结：
 //   外部引用crate 代码第三方库，跟npm类似，用 toml管理引入dependency
 //   let 变量 mut创建不可变类型变量
 //   match 匹配类型并且做处理 ，两个成员枚举 Ok Err，比较类似于 switch
 //   use::std.io; 引入包函数
+// loop 做循环 
