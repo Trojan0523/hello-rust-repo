@@ -33,5 +33,16 @@ fn main() {
 
     println!("the value of y is {}", a);
 
+    // 数组必须是每个元素类型相同，其长度是固定的，声明后，不能增加长度或者缩小长度
+    let array = [1,2,3,4,5];
 
+    let months = ["January", "February", "March", "April", "May", "June", "July",
+              "August", "September", "October", "November", "December"];
+
+    // 数组类型也可以定义，方括号第一个参数包含每个元素的类型，跟分号再跟元素数量
+    let array1: [i32; 5] = [1,2,3,4,5];
+    let array2 = [3; 5]; // 等价于 => let array2 = [3,3,3,3,3];
+    // 通过数组下表的形式访问元素，同样从0开始
+    // array2[0] // 3
+    
 }
