@@ -5,7 +5,7 @@ fn main() {
     // } else {
     //     println!("condition is false");
     // }
-    // if number { // rust 期望一个布尔却地道了一个整型，因为他没有强制类型转换，所以不支持隐式转换将整型转换为布尔
+    // if number { // rust 期望一个布尔却返回了一个整型，因为他没有强制类型转换，所以不支持隐式转换将整型转换为布尔
     if number != 0 {
         println!("the number is {}", number);
     }
